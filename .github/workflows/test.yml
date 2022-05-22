@@ -15,6 +15,8 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  call-workflow:
+    uses: /tanetg/workflow/.github/workflows/reuseworkflow@main
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
